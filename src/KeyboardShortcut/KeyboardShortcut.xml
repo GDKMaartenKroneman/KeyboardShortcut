@@ -35,9 +35,7 @@ xTuWIvAW3RahaSYkTNI5xl6/3TpcVJ3lxR0OSj/J8qLAVvhTsydahIZvcYcpclyZqfzT55nHKKYe
                 <property key="buttonclass" type="string" required="true">
                     <caption>Button Class</caption>
                     <category>Link</category>
-                    <description>
-Enter the CSS class of the button to be fired here.
-                    </description>
+                    <description>Enter the CSS class of the button to be fired here.</description>
                 </property>
             </properties>
         </property>

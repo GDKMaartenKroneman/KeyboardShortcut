@@ -5,8 +5,6 @@
   "license": "",
   "author": "",
   "private": true,
-  "dependencies": {
-  },
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -28,10 +26,10 @@
     "testProjectFileName": "Test.mpr"
   },
   "scripts": {
-    "build": "node ./node_modules/gulp/bin/gulp build",
-    "version": "node ./node_modules/gulp/bin/gulp version",
-    "icon": "node ./node_modules/gulp/bin/gulp icon",
-    "folders": "node ./node_modules/gulp/bin/gulp folders",
-    "modeler": "node ./node_modules/gulp/bin/gulp modeler"
+    "build": "gulp build",
+    "version": "gulp version",
+    "icon": "gulp icon",
+    "folders": "gulp folders",
+    "modeler": "gulp modeler"
   }
 }
